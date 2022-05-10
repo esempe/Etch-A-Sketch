@@ -1,0 +1,38 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slidecontainer {
+    text-align: center;
+
+}
+
+.title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+}
+
+.drawPanel {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.drawPanel div {
+    background-color: yellow;
+    border: 1px solid rgb(85, 12, 12);
+    
+
+}
